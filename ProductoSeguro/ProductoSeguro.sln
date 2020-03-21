@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiProductoSeguro", "web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiProductoSeguro.Tests", "webapiProductoSeguro.Tests\webapiProductoSeguro.Tests.csproj", "{9727EFAF-9C34-485D-A857-F520ACA6993A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiProductSecurity", "webapiProductSecurity\webapiProductSecurity.csproj", "{8E02237B-D78F-4631-819F-E2E73B49DB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiProductSecurity.Tests", "webapiProductSecurity.Tests\webapiProductSecurity.Tests.csproj", "{FAF08DD8-7B6A-4B2B-8CF1-90B84A3DA432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9727EFAF-9C34-485D-A857-F520ACA6993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9727EFAF-9C34-485D-A857-F520ACA6993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9727EFAF-9C34-485D-A857-F520ACA6993A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E02237B-D78F-4631-819F-E2E73B49DB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E02237B-D78F-4631-819F-E2E73B49DB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E02237B-D78F-4631-819F-E2E73B49DB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E02237B-D78F-4631-819F-E2E73B49DB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF08DD8-7B6A-4B2B-8CF1-90B84A3DA432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF08DD8-7B6A-4B2B-8CF1-90B84A3DA432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF08DD8-7B6A-4B2B-8CF1-90B84A3DA432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF08DD8-7B6A-4B2B-8CF1-90B84A3DA432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

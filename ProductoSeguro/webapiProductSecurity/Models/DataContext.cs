@@ -1,7 +1,7 @@
-﻿
-namespace webapiProductoSeguro.Models
+﻿namespace webapiProductSecurity.Models
 {
     using System.Data.Entity;
+
     public class DataContext:DbContext
     {
         public DataContext():base("DefaultConnection")
@@ -9,6 +9,6 @@ namespace webapiProductoSeguro.Models
 
         }
 
-        public System.Data.Entity.DbSet<webapiProductoSeguro.Models.Product> Products { get; set; }
+        public System.Data.Entity.DbSet<webapiProductSecurity.Models.Product> Products { get; set; }
     }
 }
